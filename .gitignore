@@ -1,39 +1,28 @@
-*.out
-*Makefile
-*.deps
-autom4te.cache
-bin/apfel
-/bin/apfel-config
-*~
-config.*
-config/*
-include/APFEL/FortranWrappers.h
-include/APFEL/stamp-h2
-libtool
-pywrap/setup.py
+# Compiled Object files
+*.slo
 *.lo
 *.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
 *.la
-*.libs
-*.dirstamp
-pywrap/build
-examples/DISObservables
-examples/DISObservablesCxx
-examples/LHgridDerivativeProduction
-examples/LHgridDerivativeProductionCxx
-examples/LHgridProduction
-examples/LHgridProductionCxx
-examples/ListFunctions
-examples/ListFunctionsCxx
-examples/Luminosity
-examples/LuminosityCxx
-examples/SumRules
-examples/SumRulesCxx
-examples/Tabulation
-examples/TabulationCxx
-examples/TabulationExternal
-examples/TabulationFrag
-examples/TabulationFragCxx
-examples/TabulationStep
-examples/TabulationStepCxx
-examples/Timing
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
